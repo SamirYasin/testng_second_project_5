@@ -1,13 +1,13 @@
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
+package scripts;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.UnitedBasePage;
-import utilities.Waiter;
 
 import java.util.stream.IntStream;
 
-public class UnitedAirlinesTest extends UnitedAirlinesBase{
+public class UnitedAirlinesTest extends UnitedAirlinesBase {
 @BeforeMethod
     public void setPage(){
     unitedBasePage = new UnitedBasePage();

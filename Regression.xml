@@ -2,7 +2,7 @@
 <suite name="Regression">
     <test name="All Functionalities">
         <classes>
-            <class name="UnitedAirlinesTest">
+            <class name="scripts.UnitedAirlinesTest">
 
             </class>
         </classes>
